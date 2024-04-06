@@ -1,8 +1,8 @@
 # DSA-
-DSA in C
 
-1. stack
-    stack with array
+## stack
+*    stack with array
+*    stack with linked list
     
-2. queue
-    queue with array 
+## queue
+*    queue with array 
