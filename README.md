@@ -1,8 +1,12 @@
-# DSA-
+# DSA in C
 
-## stack
-*    stack with array
-*    stack with linked list
+## Linked List
+*   Insertion at last
+*   Insertion at beginning
+*   Print
+## Stack
+*   Stack with array
+*   Stack with linked list
     
-## queue
-*    queue with array 
+## Queue
+*   Queue with array 
