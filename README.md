@@ -1,9 +1,10 @@
 # DSA in C
 
 ## Linked List
-*   Insertion at last
-*   Insertion at beginning
-*   Print
+*   Insert element at last
+*   Insert element at beginning
+*   Print function
+
 ## Stack
 *   Stack with array
 *   Stack with linked list
