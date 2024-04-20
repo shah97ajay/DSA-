@@ -4,11 +4,12 @@
 *   Insert element at last
 *   Insert element at beginning
 *   Insert after root node
-*   Print function
+*   Print Linked list
+*   Insert Sorted
 
 ## Stack
 *   Stack with array
-*   Stack with linked list
+*   Stack with Linked list
     
 ## Queue
 *   Queue with array 
