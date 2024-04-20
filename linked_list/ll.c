@@ -39,6 +39,18 @@ void insert_beginning(node** head, int x){
     *head = newnode;
 }
 
+//Insert after root node
+void insert_after(node* head, int x){
+    node* newnode = malloc(sizeof(node));
+    if (newnode == NULL){
+        fprintf(stderr, "malloc failed");
+        return;
+    }
+    newnode->value = x;
+    newnode->next = head->next;
+    head->next = newnode;
+}
+
 //Print the linked list
 void print(node* head){
     while (head != NULL){
@@ -52,11 +64,12 @@ int main(){
     node* new = NULL;
     
     insert_last(&new, 2);
-    insert_last(&new, 3);
     insert_last(&new, 4);
+    insert_last(&new, 5);
 
-    insert_beginning(&new, 1);
     insert_beginning(&new, 0);
+
+    insert_after(new, 1);
 
     print(new);
     

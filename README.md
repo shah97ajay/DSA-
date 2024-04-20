@@ -3,6 +3,7 @@
 ## Linked List
 *   Insert element at last
 *   Insert element at beginning
+*   Insert after root node
 *   Print function
 
 ## Stack
